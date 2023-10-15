@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892421282A9F0108009D34B7 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892421272A9F0108009D34B7 /* MenuPage.swift */; };
+		8924212A2A9F0123009D34B7 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892421292A9F0123009D34B7 /* OrdersPage.swift */; };
+		8924212C2A9F013D009D34B7 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924212B2A9F013D009D34B7 /* InfoPage.swift */; };
+		8924212E2A9F02B3009D34B7 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924212D2A9F02B3009D34B7 /* ProductItem.swift */; };
+		892421302A9F0732009D34B7 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8924212F2A9F0732009D34B7 /* DetailsPage.swift */; };
+		89408DEA2ADC80CA009FF956 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89408DE92ADC80CA009FF956 /* Alamofire */; };
+		894C307E2A9D6F8C00DE499D /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894C307D2A9D6F8C00DE499D /* Offer.swift */; };
+		894C30802A9D7B0400DE499D /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894C307F2A9D7B0400DE499D /* OffersPage.swift */; };
+		8956D04C2A9F9758008F11CD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956D04B2A9F9758008F11CD /* Category.swift */; };
+		8956D04E2A9F9963008F11CD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956D04D2A9F9963008F11CD /* Product.swift */; };
+		8956D0502A9FA044008F11CD /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956D04F2A9FA044008F11CD /* MenuManager.swift */; };
+		8956D0522A9FA070008F11CD /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956D0512A9FA070008F11CD /* CartManager.swift */; };
+		8956D0542A9FCE58008F11CD /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956D0532A9FCE58008F11CD /* OrderItem.swift */; };
+		89C3C8732A9C1BF800C34B2D /* CoffeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3C8722A9C1BF800C34B2D /* CoffeMastersApp.swift */; };
+		89C3C8752A9C1BF800C34B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3C8742A9C1BF800C34B2D /* ContentView.swift */; };
+		89C3C8772A9C1BF900C34B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C3C8762A9C1BF900C34B2D /* Assets.xcassets */; };
+		89C3C87A2A9C1BF900C34B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C3C8792A9C1BF900C34B2D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		892421272A9F0108009D34B7 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		892421292A9F0123009D34B7 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		8924212B2A9F013D009D34B7 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		8924212D2A9F02B3009D34B7 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		8924212F2A9F0732009D34B7 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
+		894C307D2A9D6F8C00DE499D /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		894C307F2A9D7B0400DE499D /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		8956D04B2A9F9758008F11CD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8956D04D2A9F9963008F11CD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8956D04F2A9FA044008F11CD /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		8956D0512A9FA070008F11CD /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		8956D0532A9FCE58008F11CD /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		89C3C86F2A9C1BF800C34B2D /* CoffeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C3C8722A9C1BF800C34B2D /* CoffeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMastersApp.swift; sourceTree = "<group>"; };
+		89C3C8742A9C1BF800C34B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89C3C8762A9C1BF900C34B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89C3C8792A9C1BF900C34B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C3C86C2A9C1BF800C34B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89408DEA2ADC80CA009FF956 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892421252A9F009B009D34B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				894C307D2A9D6F8C00DE499D /* Offer.swift */,
+				8924212D2A9F02B3009D34B7 /* ProductItem.swift */,
+				8956D0532A9FCE58008F11CD /* OrderItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		892421262A9F00B3009D34B7 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				894C307F2A9D7B0400DE499D /* OffersPage.swift */,
+				892421272A9F0108009D34B7 /* MenuPage.swift */,
+				892421292A9F0123009D34B7 /* OrdersPage.swift */,
+				8924212B2A9F013D009D34B7 /* InfoPage.swift */,
+				8924212F2A9F0732009D34B7 /* DetailsPage.swift */,
+			);
+			path = "Page Views";
+			sourceTree = "<group>";
+		};
+		8956D0482A9F96C0008F11CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8956D04B2A9F9758008F11CD /* Category.swift */,
+				8956D04D2A9F9963008F11CD /* Product.swift */,
+				8956D04F2A9FA044008F11CD /* MenuManager.swift */,
+				8956D0512A9FA070008F11CD /* CartManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89C3C8662A9C1BF800C34B2D = {
+			isa = PBXGroup;
+			children = (
+				89C3C8712A9C1BF800C34B2D /* CoffeMasters */,
+				89C3C8702A9C1BF800C34B2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89C3C8702A9C1BF800C34B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C3C86F2A9C1BF800C34B2D /* CoffeMasters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C3C8712A9C1BF800C34B2D /* CoffeMasters */ = {
+			isa = PBXGroup;
+			children = (
+				8956D0482A9F96C0008F11CD /* Model */,
+				892421262A9F00B3009D34B7 /* Page Views */,
+				892421252A9F009B009D34B7 /* Views */,
+				89C3C8742A9C1BF800C34B2D /* ContentView.swift */,
+				89C3C8722A9C1BF800C34B2D /* CoffeMastersApp.swift */,
+				89C3C8762A9C1BF900C34B2D /* Assets.xcassets */,
+				89C3C8782A9C1BF900C34B2D /* Preview Content */,
+			);
+			path = CoffeMasters;
+			sourceTree = "<group>";
+		};
+		89C3C8782A9C1BF900C34B2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89C3C8792A9C1BF900C34B2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C3C86E2A9C1BF800C34B2D /* CoffeMasters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C3C87D2A9C1BF900C34B2D /* Build configuration list for PBXNativeTarget "CoffeMasters" */;
+			buildPhases = (
+				89C3C86B2A9C1BF800C34B2D /* Sources */,
+				89C3C86C2A9C1BF800C34B2D /* Frameworks */,
+				89C3C86D2A9C1BF800C34B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeMasters;
+			packageProductDependencies = (
+				89408DE92ADC80CA009FF956 /* Alamofire */,
+			);
+			productName = CoffeMasters;
+			productReference = 89C3C86F2A9C1BF800C34B2D /* CoffeMasters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C3C8672A9C1BF800C34B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					89C3C86E2A9C1BF800C34B2D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 89C3C86A2A9C1BF800C34B2D /* Build configuration list for PBXProject "CoffeMasters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89C3C8662A9C1BF800C34B2D;
+			packageReferences = (
+				892706AB2AA4DF870063A11D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 89C3C8702A9C1BF800C34B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C3C86E2A9C1BF800C34B2D /* CoffeMasters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C3C86D2A9C1BF800C34B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C3C87A2A9C1BF900C34B2D /* Preview Assets.xcassets in Resources */,
+				89C3C8772A9C1BF900C34B2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C3C86B2A9C1BF800C34B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8956D0502A9FA044008F11CD /* MenuManager.swift in Sources */,
+				8956D0522A9FA070008F11CD /* CartManager.swift in Sources */,
+				894C307E2A9D6F8C00DE499D /* Offer.swift in Sources */,
+				8956D04C2A9F9758008F11CD /* Category.swift in Sources */,
+				894C30802A9D7B0400DE499D /* OffersPage.swift in Sources */,
+				892421282A9F0108009D34B7 /* MenuPage.swift in Sources */,
+				892421302A9F0732009D34B7 /* DetailsPage.swift in Sources */,
+				8956D04E2A9F9963008F11CD /* Product.swift in Sources */,
+				8924212C2A9F013D009D34B7 /* InfoPage.swift in Sources */,
+				8956D0542A9FCE58008F11CD /* OrderItem.swift in Sources */,
+				8924212E2A9F02B3009D34B7 /* ProductItem.swift in Sources */,
+				89C3C8752A9C1BF800C34B2D /* ContentView.swift in Sources */,
+				8924212A2A9F0123009D34B7 /* OrdersPage.swift in Sources */,
+				89C3C8732A9C1BF800C34B2D /* CoffeMastersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89C3C87B2A9C1BF900C34B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89C3C87C2A9C1BF900C34B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C3C87E2A9C1BF900C34B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeMasters/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanmunozlopez.CoffeMasters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C3C87F2A9C1BF900C34B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeMasters/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanmunozlopez.CoffeMasters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C3C86A2A9C1BF800C34B2D /* Build configuration list for PBXProject "CoffeMasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C3C87B2A9C1BF900C34B2D /* Debug */,
+				89C3C87C2A9C1BF900C34B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C3C87D2A9C1BF900C34B2D /* Build configuration list for PBXNativeTarget "CoffeMasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C3C87E2A9C1BF900C34B2D /* Debug */,
+				89C3C87F2A9C1BF900C34B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		892706AB2AA4DF870063A11D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89408DE92ADC80CA009FF956 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 892706AB2AA4DF870063A11D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89C3C8672A9C1BF800C34B2D /* Project object */;
+}
